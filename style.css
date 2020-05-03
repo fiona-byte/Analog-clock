@@ -1,0 +1,207 @@
+html,
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/bg-img.jpeg);
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: .7rem;
+}
+
+.background {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin: 100px;
+    border-radius: 50%;
+    background: rgba(119, 119, 119, 0.1);
+    font-size: 2rem;
+    color:#fff;
+}
+
+.hour-hand {
+    width: 65px;
+    height: 4px;
+    background: #fff;
+    margin: 112px 116px;
+    position: absolute; 
+    transform: rotate(90deg);
+}
+
+.min-hand {
+    width: 100px;
+    height: 3px;
+    background: #fff;
+    margin: 95px 98px;
+    position: absolute; 
+    transform: rotate(90deg);
+}
+
+.sec-hand {
+    width: 100px;
+    height: 1px;
+    background: #fff;
+    margin: 100px 100px;
+    position: absolute; 
+    transform: rotate(90deg);
+}
+
+.a {
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    position: absolute;
+}
+
+.b {
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    position: absolute;
+}
+.c {
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    position: absolute;
+}
+
+.d {
+    width: 17px;
+    height: 17px;
+    background: #bbecd6;
+    margin: 240px;
+    position: absolute; 
+    border-radius: 50%;
+}
+
+.twelve {
+    position: absolute;
+    top: 5%;
+    left: 44%;
+}
+
+.eleven {
+    position: absolute;
+    top: 12%;
+    left: 23%;
+}
+.ten {
+    position: absolute;
+    top: 28%;
+    left: 9%;
+}
+.nine {
+    position: absolute;
+    top: 46%;
+    left: 5%;
+}
+.eight {
+    position: absolute;
+    top: 66%;
+    left: 10%;
+}
+.seven {
+    position: absolute;
+    top: 82%;
+    left: 26%;
+}
+.six {
+    position: absolute;
+    top: 88%;
+    left: 48%;
+}
+.five {
+    position: absolute;
+    top: 81%;
+    left: 70%;
+}
+.four {
+    position: absolute;
+    top: 65%;
+    left: 85%;
+}
+.three {
+    position: absolute;
+    top: 45%;
+    left: 89%;
+}
+.two {
+    position: absolute;
+    top: 26%;
+    left: 85%;
+}
+.one {
+    position: absolute;
+    top: 10%;
+    left: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    font-size: 2rem;
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.clock {
+    width: 30rem;
+    height: 30rem;
+    border: 20px solid #888;
+    border-radius: 50%;
+    margin: 50px auto;
+    position: relative;
+    padding: 2rem;
+    box-shadow: 
+        0 0 0px 4px rgba(0, 0, 0, 0.1);
+        inset: 0 0 0 3px #f7584d;
+        inset: 0 0 0 10px #000,
+        0 0 10 rgba(0, 0, 0, 0.2);
+}
+
+.clock-face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-3px);
+}
+
+.hand {
+    width: 50%;
+    height: 5px;
+    background: #f7584d;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+} */
